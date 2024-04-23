@@ -5,6 +5,7 @@ import { Shop } from './Pages/Shop'
 import { ShopCategory } from './Pages/ShopCategory'
 import { Login } from './Pages/Login'
 import { Cart } from './Pages/Cart'
+import { Footer } from './Components/Footer/Footer'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/cart' element={<Cart />} />
       </Routes>
+      <Footer />
     </Router>
       
     </>
