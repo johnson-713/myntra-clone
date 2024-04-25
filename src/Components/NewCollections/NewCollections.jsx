@@ -12,6 +12,7 @@ export const NewCollections = () => {
           return (
             <Items
               key={ind}
+              id={i?.id}
               image={i?.image}
               name={i?.name}
               new_price={i?.new_price}

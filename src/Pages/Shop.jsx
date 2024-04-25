@@ -9,7 +9,7 @@ export const Shop = () => {
   return (
     <div>
       <Hero />
-      <Popular />
+      <Popular title='Popular In Women' />
       <Offers />
       <NewCollections />
       <NewsLetter />
